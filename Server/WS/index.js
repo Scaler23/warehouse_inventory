@@ -92,4 +92,5 @@ function replaceSocketId(recipient, newSocketId) {
 
 server.listen(port, () => {
   console.log("server is running at port", port);
+  console.log(origin)
 });
