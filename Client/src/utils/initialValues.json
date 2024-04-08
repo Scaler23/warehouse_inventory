@@ -1,0 +1,62 @@
+{
+  "creationFields": {
+    "username": "",
+    "email": "",
+    "password": "",
+    "user_role": "",
+    "contact": "",
+    "address": "",
+    "age": "",
+    "marital_status": "",
+    "image_link": ""
+  },
+  "loginFields": {
+    "email": "",
+    "password": ""
+  },
+  "manageRolesFields": {
+    "itemName": "",
+    "quantity": "",
+    "requester": "",
+    "dateExpected": "",
+    "storage_loc": "",
+    "comments": "",
+    "formStructure": [
+      {
+        "control": "input",
+        "type": "text",
+        "label": "Role",
+        "name": "role_name",
+        "placeholder": "ex: juanwms",
+        "md": 12
+      },
+      {
+        "control": "textarea",
+        "label": "Description",
+        "name": "role_desc",
+        "rows": 4,
+        "placeholder": "Place Role Description",
+        "md": 12
+      }
+    ]
+  },
+  "supplyRequestFields": {
+    "role_name": "",
+    "role_desc": ""
+  },
+  "qualityControlFields": {
+    "reports_summary": "",
+    "rating": "",
+    "attachment": "",
+    "isCorrectQuantity": "",
+    "isProperPackaging": "",
+    "isAccurateLabels": "",
+    "isNoDamages": "",
+    "isSatisfactoryCondition": "",
+    "isCorrectColor": "",
+    "isFunctionalComponents": "",
+    "isCleanliness": "",
+    "isNoMissingParts": "",
+    "isAccurateDocumentation": ""
+  }
+}

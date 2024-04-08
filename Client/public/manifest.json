@@ -1,0 +1,12 @@
+{
+  "name": "Kargada",
+  "short_name": "Kargada",
+  "description": "A Freight Management System",
+  "theme_color": "#363949",
+  "background_color": "#363949",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/",
+  "orientation": "any",
+  "display_override": ["window-controls-overlay"]
+}
